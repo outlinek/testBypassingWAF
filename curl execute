@@ -1,0 +1,39 @@
+curl -X GET 'http://localhost:3000/indexxx.php' -H "Cookie: cookie1=value1; cookie2=value2" -v
+
+Note: Unnecessary use of -X or --request, GET is already inferred.
+*   Trying 127.0.0.1:3000...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+> GET /indexxx.php HTTP/1.1
+> Host: localhost:3000
+> User-Agent: curl/7.88.1
+> Accept: */*
+> Cookie: cookie1=value1; cookie2=value2
+> 
+< HTTP/1.1 200 OK
+< Host: localhost:3000
+< Date: Mon, 23 Dec 2024 23:08:25 GMT
+< Connection: close
+< X-Powered-By: PHP/8.2.26
+< Content-type: text/html; charset=UTF-8
+< 
+<pre>Array
+(
+    [DOCUMENT_ROOT] => /home/------/httpPatchVULn/php
+    [REMOTE_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 42434
+    [SERVER_SOFTWARE] => PHP 8.2.26 Development Server
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_NAME] => 0.0.0.0
+    [SERVER_PORT] => 3000
+    [REQUEST_URI] => /indexxx.php
+    [REQUEST_METHOD] => GET
+    [SCRIPT_NAME] => /indexxx.php
+    [SCRIPT_FILENAME] => /home/------/httpPatchVULn/php/indexxx.php
+    [PHP_SELF] => /indexxx.php
+    [HTTP_HOST] => localhost:3000
+    [HTTP_USER_AGENT] => curl/7.88.1
+    [HTTP_ACCEPT] => */*
+    [HTTP_COOKIE] => cookie1=value1; cookie2=value2
+    [REQUEST_TIME_FLOAT] => 1734995305.9882
+    [REQUEST_TIME] => 1734995305
+)
