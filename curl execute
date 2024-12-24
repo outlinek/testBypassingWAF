@@ -33,7 +33,7 @@ Note: Unnecessary use of -X or --request, GET is already inferred.
     [HTTP_HOST] => localhost:3000
     [HTTP_USER_AGENT] => curl/7.88.1
     [HTTP_ACCEPT] => */*
-    [HTTP_COOKIE] => cookie1=value1; cookie2=value2
+  <strong>  [HTTP_COOKIE] => cookie1=value1; cookie2=value2  </strong>
     [REQUEST_TIME_FLOAT] => 1734995305.9882
     [REQUEST_TIME] => 1734995305
 )
